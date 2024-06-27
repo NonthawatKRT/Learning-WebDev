@@ -1,0 +1,87 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.tohoma{
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arial{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arial_red{
+    font-family: Arial;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(215, 2, 2);
+}
+
+.verdana{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+.verdana_describtion{
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(96,96,96);
+    margin-bottom: 20px;
+}
+.verdana_text{
+    font-family: Verdana;
+    font-size: 15px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.getstarted{
+    font-family: Verdana;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    padding: 8px 18px 8px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.getstarted:hover{
+    opacity: 0.8;
+    box-shadow: 1px 2px 5px 0px rgb(0,0,0,0.5);
+}
+.getstarted:active{
+    opacity: 0.5;
+}
+
+.shopping_tittle{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.detail{
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(96,96,96);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.learmore{
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(0,113,133);
+    cursor: pointer;
+    text-align: center;
+}
+.learmore:hover{
+    color: rgb(0, 64, 133);
+    text-decoration: underline;
+}
+.learmore:active{
+    opacity: 0.5;
+}

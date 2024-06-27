@@ -1,0 +1,204 @@
+#subscribe {
+    background-color: rgb(180, 0, 0);
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+#subscribe:hover{
+    opacity: 0.8;
+}
+#subscribe:active{
+    opacity: 0.5;
+}
+
+#join {
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(41, 118, 211);
+    height: 40px;
+    width: 60px;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(41, 118, 211);
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: solid;
+    transition: opacity 0.3s , background-color 0.3s;
+}
+#join:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+#join:active{
+    opacity: 0.5;
+}
+
+#tweet {
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(74, 134, 209);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s , background-color 0.3s , color 0.3s , box-shadow 0.3s;
+}
+#tweet:hover{
+    background-color: rgb(41, 118, 230);
+    box-shadow: 1px 2px 5px 0px rgb(0,0,0,0.5);
+    color: white;
+    
+}
+#tweet:active{
+    opacity: 0.5;
+}
+
+#requestnow {
+    margin-left: 8px;
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+#requestnow:hover{
+    opacity: 0.8;
+}
+#requestnow:active{
+    opacity: 0.5;
+}
+
+#addttocard {
+    margin-left: 10px;
+    height: 40px;
+    width: 160px;
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s , box-shadow 0.3s;
+}
+#addttocard:hover{
+    opacity: 0.8;
+    box-shadow: 1px 2px 5px 0px rgb(0,0,0,0.5);
+}
+#addttocard:active{
+    opacity: 0.5;
+}
+
+#github{
+    margin-left: 10px;
+    background-color: rgb(46,164,79);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+#github:hover{
+    opacity: 0.8;
+}
+#github:active{
+    opacity: 0.5;
+}
+
+#getstart{
+    margin-left: 10px;
+    background-color: rgb(121,82,179);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+#getstart:hover{
+    opacity: 0.8;
+}
+#getstart:active{
+    opacity: 0.5;
+}
+
+#download{
+    margin-left: 2px;
+    background-color: white;
+    color: rgb(108,117,125);
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border-color: rgb(108,117,125);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s , background-color 0.3s , color 0.3s;
+}
+#download:hover{
+    background-color: rgb(108,117,125);
+    color: white;
+}
+#download:active{
+    opacity: 0.5;
+}
+
+#apply{
+    margin-top: 20px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s , box-shadow 0.3s;
+}
+#apply:hover{
+    box-shadow: 1px 2px 5px 0px rgb(0,0,0,0.5);
+    opacity: 0.8;
+}
+#apply:active{
+    opacity: 0.5;
+}
+
+#save{
+    margin-left: 10px;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: opacity 0.3s , border-width 0.1s , font-size 0.1s;
+}
+#save:hover{
+    border-width: 3px;
+    font-size: 16px;
+}
+#save:active{
+    opacity: 0.5;
+}
