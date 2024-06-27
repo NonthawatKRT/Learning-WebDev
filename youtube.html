@@ -1,108 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Youtube</title>
-        <style>
-            body{
-                background-color: black;
-            }
-            .videorow {
-                display: flex;
-                flex-wrap: wrap;
-            }
-            .thumbnail {
-                width: 360px;
-                height: 200px;
-                margin-bottom: 0px;
-                border-radius: 10px;
-                
-            }
-            .Search-bar {
-                width: 300px;
-                height: 30px;
-            }
 
-            .videocard {
-                align-items: top;
-                margin-left: 20px;
-                margin-top: 10px;
-            }
-            .userimg {
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;
-            }
-            .videoinfo {
-                margin-top: 0px;
-                display: flex;
-                align-items: center;
-                width: 350px;
-            }
-            .videoname {
-                font-size: 15px;
-                color: white;
-                margin-left: 10px;
-                margin-top: 12px;
-                margin-bottom: 10px;
-                font-weight: bold;
-                font-family: Arial, Helvetica, sans-serif;
-                line-height: 20px;
-            }
-            .username{
-                margin-top: 0px;
-                margin-left: 50px;
-                margin-bottom: 10px;
-                font-size: 13px;
-                font-weight: 500;
-                font-family: Arial, Helvetica, sans-serif;
-                color: rgb(137, 137, 137);
-            }
-            .views{
-                margin-top: 0px;
-                margin-left: 49px;
-                font-size: 13px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: rgb(137, 137, 137);
-            }
+<head>
+    <title>Youtube</title>
 
-        </style>
-    </head>
-    <body>
-        <input class="Search-bar "type="text" placeholder="Search">
-        <br>
-        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
-        <br>
-        <div class="videorow">
-            <div class="videocard">
-                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-                <div class="videoinfo">
-                <img src="cat.jpg" class="userimg">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: Roboto;
+        }
+
+        .videorow {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .thumbnail {
+            width: 360px;
+            height: 200px;
+            margin-bottom: 0px;
+            border-radius: 10px;
+
+        }
+
+        .Search-bar {
+            width: 300px;
+            height: 30px;
+        }
+
+        .videocard {
+            align-items: top;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .userimg {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .videoinfo {
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+            width: 350px;
+        }
+
+        .videoname {
+            font-size: 15px;
+            color: white;
+            margin-left: 10px;
+            margin-top: 12px;
+            margin-bottom: 13px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+        .username {
+            margin-top: 0px;
+            margin-left: 50px;
+            margin-bottom: 5px;
+            font-size: 13px;
+            font-weight: 500;
+            color: rgb(137, 137, 137);
+        }
+
+        .views {
+            margin-top: 0px;
+            margin-left: 49px;
+            font-size: 13px;
+            color: rgb(137, 137, 137);
+        }
+    </style>
+</head>
+
+<body>
+    <input class="Search-bar " type="text" placeholder="Search">
+    <br>
+
+
+    <br>
+    <div class="videorow">
+        <div class="videocard">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="videoinfo">
+                <img src="thumbnails/channel1_profile.jpg" class="userimg">
                 <p class="videoname">Talking Tech and AI with Google CEO Sundar Pichai!</p>
             </div>
-                <p class="username">Marques Brownlee</p>
-                <p class="views">3.4M views &centerdot; 6 months ago</p>
-            </div>
+            <p class="username">Marques Brownlee</p>
+            <p class="views">3.4M views &centerdot; 6 months ago</p>
+        </div>
 
-            <div class="videocard">
-                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-                <div class="videoinfo">
-                <img src="cat.jpg" class="userimg">
+        <div class="videocard">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="videoinfo">
+                <img src="thumbnails/channel2_profile.jpg" class="userimg">
                 <p class="videoname">How to ผัดไข่เค็มทำยังไงให้อร่อย? สูตรเชฟป้อม👩‍🍳</p>
             </div>
-                <p class="username">tigercrychannel</p>
-                <p class="views">250,000 views &centerdot; 18 hours ago</p>
-            </div>
+            <p class="username">tigercrychannel</p>
+            <p class="views">250,000 views &centerdot; 18 hours ago</p>
+        </div>
 
-            <div class="videocard">
-                <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
-                <div class="videoinfo">
-                <img src="cat.jpg" class="userimg">
+        <div class="videocard">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="videoinfo">
+                <img src="thumbnails/channel3_profile.jpg" class="userimg">
                 <p class="videoname">โลกิ (Loki) ตัวละครที่น่าสงสารที่สุดใน MCU</p>
             </div>
-                <p class="username">THE FINAL CUT</p>
-                <p class="views">310,000 views &centerdot; 3 years ago</p>
-            </div>
+            <p class="username">THE FINAL CUT</p>
+            <p class="views">310,000 views &centerdot; 3 years ago</p>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
