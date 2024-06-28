@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: 100px 100px;
+            }
+            .container2{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 100px 100px;
+            }
+            .gridfr{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;
+                
+            }
+            .div1 {
+                background-color: lightcoral;
+            }
+            .div2 {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="div1">div1</div>
+        <div class="div2">div2</div>
+    </div>
+
+    <div class="container2">
+        <div class="div1">div1</div>
+        <div class="div2">div2</div>
+        <div class="div2">div1</div>
+        <div class="div1">div2</div>
+    </div>
+
+    <div class="gridfr">
+        <div class="div1" style="height: 200px;">div1</div>
+        <div class="div2" style="height: 200px;">div2</div>
+        <div class="div1" style="height: 200px;">div3</div>
+        <div class="div2" style="height: 200px;">div2</div>
+        <div class="div1" style="height: 200px;">div1</div>
+        <div class="div2" style="height: 200px;">div3</div>
+    </div>
+    </body>
+</html>

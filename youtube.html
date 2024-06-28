@@ -4,90 +4,44 @@
 <head>
     <title>Youtube</title>
 
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
-
-    <style>
-        body {
-            background-color: black;
-            font-family: Roboto;
-        }
-
-        .videorow {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .thumbnail {
-            width: 360px;
-            height: 200px;
-            margin-bottom: 0px;
-            border-radius: 10px;
-
-        }
-
-        .Search-bar {
-            width: 300px;
-            height: 30px;
-        }
-
-        .videocard {
-            align-items: top;
-            margin-left: 20px;
-            margin-top: 10px;
-        }
-
-        .userimg {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-        }
-
-        .videoinfo {
-            margin-top: 0px;
-            display: flex;
-            align-items: center;
-            width: 350px;
-        }
-
-        .videoname {
-            font-size: 15px;
-            color: white;
-            margin-left: 10px;
-            margin-top: 12px;
-            margin-bottom: 13px;
-            font-weight: bold;
-            line-height: 25px;
-        }
-
-        .username {
-            margin-top: 0px;
-            margin-left: 50px;
-            margin-bottom: 5px;
-            font-size: 13px;
-            font-weight: 500;
-            color: rgb(137, 137, 137);
-        }
-
-        .views {
-            margin-top: 0px;
-            margin-left: 49px;
-            font-size: 13px;
-            color: rgb(137, 137, 137);
-        }
-    </style>
 </head>
 
 <body>
-    <input class="Search-bar " type="text" placeholder="Search">
-    <br>
+    <div class="header">
+        <div class="left-section">
+            <button class="menubt"><img src="icons/menuicon.png" class="menuicon"></button>
+            <img src="icons/youtubelogo.png" class="youtubelogo">
+        </div>
+        <div class="middle-section">
+            <div class="searchsection">
+                <input class="Search-bar" type="text" placeholder="Search">
+                <button class="searchbt"><img class="searchicon" src="icons/searchicon.png" alt=""></button>
+            </div>
+            <div class="microphonesection">
+                <button class="microphonebt"><img src="icons/microphoneicon.png" class="microphoneicon"></button>
+            </div>
+            
+        </div>
+        <div class="right-section">
+            <button class="videobt"><img src="icons/videoicon.png" class="videoicon"></button>
+            <button class="bellbt"><img src="icons/bellicon.png" class="bellicon"></button>
+            <img src="icons/userprofile.jpg" class="userprofile">
+        </div>
+    </div>
 
+    <div class="keyword-row">
 
-    <br>
+    </div>
+
     <div class="videorow">
         <div class="videocard">
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
@@ -117,6 +71,37 @@
             </div>
             <p class="username">THE FINAL CUT</p>
             <p class="views">310,000 views &centerdot; 3 years ago</p>
+        </div>
+
+
+        <div class="videocard">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="videoinfo">
+                <img src="thumbnails/channel4_profile.jpg" class="userimg">
+                <p class="videoname">สร้างโรงงานช็อคโกแลตของวิลลี่ วองก้า</p>
+            </div>
+            <p class="username">MrBeast</p>
+            <p class="views">305M views &centerdot; 2 years ago</p>
+        </div>
+
+        <div class="videocard">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="videoinfo">
+                <img src="thumbnails/channel5_profile.jpg" class="userimg">
+                <p class="videoname">เติม 100,000 โรบัค สุ่มกาชาหาตัว Secret | Anime Defenders Roblox</p>
+            </div>
+            <p class="username">กาย หงิด</p>
+            <p class="views">310,000 views &centerdot; 19 hours ago</p>
+        </div>
+
+        <div class="videocard">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="videoinfo">
+                <img src="thumbnails/channel6_profile.jpg" class="userimg">
+                <p class="videoname">ผมเอาชีวิตรอด 100 วัน ในเกม Project Zomboid และนี้คือเรื่องราวทั้งหมดครับ</p>
+            </div>
+            <p class="username">กระเทียมเจียว</p>
+            <p class="views">650,000 views &centerdot; 4 months ago</p>
         </div>
     </div>
 </body>

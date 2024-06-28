@@ -1,0 +1,180 @@
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.left-section {
+    height: 50px;
+    width: 180px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    height: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+
+.right-section {
+    margin-top: 1px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 210px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.searchsection{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Search-bar {
+    flex: 1;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px 0px 0px 20px;
+    border-color: #aaaaaa61;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.Search-bar:focus {
+    border-width: 1px;
+    border-color: blue;
+}
+
+.searchbt{
+    margin-top: 0.5px;
+    height: 40px;
+    width: 60px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(44, 44, 44);
+    border-color: #aaaaaa78;
+    border-width: 1px;
+    border: none;
+    color: #aaa;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchicon{
+    margin-top: 1px;
+    width: 20px;
+}
+
+.microphonesection{
+    margin-left: 10px;
+    display: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.microphonebt{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.155);
+    border-radius: 50%;
+    border: none;
+    transition: background-color 0.3s ease-out;
+}
+.microphonebt:hover{
+    background-color: rgba(255, 255, 255, 0.255);
+}
+.microphonebt:active{
+    background-color: rgba(255, 255, 255, 0.455);
+}
+
+.microphoneicon{
+    width: 18px;
+    margin-top: 1px;
+    padding: 5px 2px 5px 2px;
+}
+.videobt{
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-out;
+}
+.videobt:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+}
+.videobt:active{
+    background-color: rgba(255, 255, 255, 0.255);
+}
+
+.bellbt{
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-right: 20px;
+    transition: background-color 0.3s ease-out;
+}
+.bellbt:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+}
+.bellbt:active{
+    background-color: rgba(255, 255, 255, 0.255);
+}
+
+.userprofile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+}
+
+.videoicon{
+    width: 35px;
+    height: 35px;
+}
+.bellicon{
+    width: 23px;
+    height: 23px;
+}
+
+.menubt{
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: 10px;
+    transition: background-color 0.3s ease-out;
+}
+
+.menuicon{
+    width: 23px;
+    height: 23px;
+}
+
+.youtubelogo{
+    width: 200px;
+    height: 53px;
+    margin-left: 5px;
+}

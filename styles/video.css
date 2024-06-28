@@ -1,0 +1,60 @@
+.videorow {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 30px;
+}
+
+.thumbnail {
+    width: 100%;
+    margin-bottom: 0px;
+    border-radius: 10px;
+
+}
+
+.videocard {
+    align-items: top;
+    margin-top: 10px;
+}
+
+.userimg {
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.videoinfo {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+}
+
+.videoname {
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 13px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.username {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #aaa;
+}
+
+.views {
+    margin-top: 0px;
+    margin-left: 60px;
+    font-size: 13px;
+    color: #aaa;
+}
