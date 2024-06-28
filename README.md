@@ -2,7 +2,7 @@
 Just learning to create a website using HTML, CSS, and JavaScript.
 
 # Overview
-This project is a simple website built to practice and learn the fundamentals of web development using HTML, CSS, and JavaScript.
+This project contain simple websites built to practice and learn the fundamentals of web development using HTML, CSS, and JavaScript.
 
 # Features
 * Basic HTML structure
