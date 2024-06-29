@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Nested Flexbox
+    </title>
+    <style>
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 17px;
+        }
+
+        .first {
+            display: flex;
+            flex-direction: row;
+            padding: 5px 5px 5px 5px;
+            height: 70px;
+        }
+
+        .left-sec {
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-sec {
+            width: 200px;
+        }
+
+        .item {
+            font-size: 17px;
+            background-color: black;
+            color: white;
+        }
+
+        .second {
+            display: flex;
+            flex-direction: row;
+            padding: 5px 5px 5px 5px;
+            height: 70px;
+        }
+
+        .first-sec {
+            width: 100px;
+        }
+
+        .second-sec {
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sm-left {
+            margin-top: 1px;
+        }
+
+        .sm-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .row2 {
+            background-color: black;
+            color: white;
+            font-size: 17px;
+        }
+
+        /* --------------------------------------------------------------------------------------------------- */
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .allinboxes {
+            display: flex;
+            flex-direction: column;
+            padding: 5px 10px 20px 5px;
+            height: 300px;
+            width: 500px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 20px;
+            box-shadow: 0px 0px 10px 0px gray;
+            
+        }
+        .main {
+            margin-bottom: 20px;
+        }
+
+        .lebel {
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px 0px 0px 10px;
+            color: #5d5d5d;
+        }
+
+        .cardcontainer{
+            display: block;
+        }
+
+        .inboxcard {
+            margin-top: 17px;
+            display: flex;
+            flex-direction: row;
+            padding: 5px 5px 5px 5px;
+            align-items: center;
+        }
+
+        .userprofile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-left: 8px;
+        }
+
+        .cardcontent {
+            margin-left: 10px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .carduper-sec {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 1px;
+        }
+
+        .username {
+            flex: 1;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .time {
+            font-size: 14px;
+            color: #5d5d5d;
+        }
+
+        .cardlower-sec {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            line-height: 22px;
+        }
+
+        .subject {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .message {
+            font-size: 15px;
+            color: #5d5d5d;
+        }
+
+        /* ----------------------------------------------------------------------------------------------- */
+
+        .twitter{
+            display: flex;
+            flex-direction: row;
+            padding: 10px 20px 10px 10px;
+            height: 170px;
+            width: 440px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 20px;
+            box-shadow: 0px 0px 10px 0px gray;
+        }
+
+        .userpost{
+            padding: 5px 5px 5px 10px;
+
+            flex: 1;
+        }
+        .nameandemail{
+            display: flex;
+            flex-direction: row;
+        }
+        .twittname{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .email{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #5d5d5d;
+            margin-left: 5px;
+        }
+        .detail{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 5px;
+            line-height: 20px;
+        }
+
+        .attachlink{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+        }
+
+        .blankcolor{
+            width: 70px;
+            background-color: #5d5d5d70;
+            border-radius: 10px 0px 0px 10px;
+        }
+        .linkinfo{
+            border-radius: 0px 10px 10px 0px;
+            border-style: solid ;
+            border-color: #5d5d5d70;
+            border-width: 1px;
+            flex: 1;
+            padding: 10px 5px 10px 9px;
+        }
+        .link{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #3d3d3d;
+            margin-top: 3px;
+            margin-left: 3px;
+            margin-bottom: 3px;
+        }
+        .linkdetail{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            margin-left: 3px;
+            line-height: 20px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <div class="left-sec" style="background-color: lightpink;">
+            <p class="item">item1</p>
+        </div>
+        <div class="right-sec" style="background-color: lightblue;"></div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="second">
+        <div class="first-sec" style="background-color: lightpink;"></div>
+        <div class="second-sec" style="background-color: lightblue;">
+            <div class="sm-left">
+                <p style="margin-bottom: 3px;">row1</p>
+                <p class="row2">row2</p>
+            </div>
+            <div class="sm-right">
+                <p class="row2">row2</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="allinboxes">
+        <div class="lebel">ALL INBOXES</div>
+        <div class="main">
+            <div class="cardcontainer">
+                <div class="inboxcard">
+                    <img src="cat.jpg" class="userprofile">
+                    <div class="cardcontent">
+                        <div class="carduper-sec">
+                            <p class="username">Chewy Promotions</p>
+                            <p class="time">4:58 PM</p>
+                        </div>
+                        <div class="cardlower-sec">
+                            <p class="subject">Bigest sales of the year!</p>
+                            <p class="message">Hey there! We're writing to tell you about our...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardcontainer">
+                    <div class="inboxcard">
+                        <img src="cat2.jpg" class="userprofile">
+                        <div class="cardcontent">
+                            <div class="carduper-sec">
+                                <p class="username">Best Buy</p>
+                                <p class="time">12:32 PM</p>
+                            </div>
+                            <div class="cardlower-sec">
+                                <p class="subject">Your Best Buy eReceipt</p>
+                                <p class="message">Thank you for shopping at Best Buy, here is...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cardcontainer">
+                        <div class="inboxcard">
+                            <img src="cat3.jpeg" class="userprofile">
+                            <div class="cardcontent">
+                                <div class="carduper-sec">
+                                    <p class="username">Netflix</p>
+                                    <p class="time">9:00 AM</p>
+                                </div>
+                                <div class="cardlower-sec">
+                                    <p class="subject">Here's what's coming soon to Netflix</p>
+                                    <p class="message">Brand new movies and shows, old favorites...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="twitter">
+        <img src="cat.jpg" class="userprofile">
+        <div class="userpost">
+            <div class="nameandemail">
+                <div class="twittname">supersimple.dev</div>
+                <div class="email">@SuperSimpleDev</div>
+            </div>
+            <div class="detail">What is backend web development? A complete overview. New video is up!</div>
+            
+            <div class="attachlink">
+                <div class="blankcolor"></div>
+                <div class="linkinfo">
+                    <p class="link">youtube.com</p>
+                    <div class="linkdetail">Backend web development - a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    
+</body>
+
+</html>

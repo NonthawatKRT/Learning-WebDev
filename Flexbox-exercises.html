@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flexbox exercises
+        </title>
+        <style>
+            .first {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .second {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .third{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+            }
+
+            .fouth{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="first">
+            <div style="width: 200px; background-color: lightblue;">200px</div>
+            <div style="width: 75px; background-color: lightpink;">75px</div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="second">
+            <div style="width: 50px; background-color: lightblue;">item1</div>
+            <div style="flex: 1;; background-color: lightpink;">item2</div>
+            <div style="width: 75px; background-color: lightblue;">item3</div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="third">
+            <div style=" background-color: lightblue;">item1</div>
+            <div style=" background-color: lightpink;">item2</div>
+            <div style=" background-color: lightblue;">item3</div>
+            <div style=" background-color: lightpink;">item4</div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="fouth">
+            <div style=" height: 20px; background-color: lightblue;">item1</div>
+            <div style=" height: 20px; background-color: lightpink;">item2</div>
+        </div>
+    </body>
+</html>
