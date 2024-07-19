@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            advance position
+        </title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                height: 3000px;
+            }
+            .topheader{
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 10px 10px 10px 10px;
+                height: 50px;
+                background-color: rgb(211, 211, 211);
+            }
+            .userimage{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .leftsection{
+                padding-left: 50px;
+                width: 50px;
+                display: flex;
+            }
+            .middlesection{
+                flex: 1;
+                display: flex;
+                justify-content: start;
+                padding-left: 10px;
+            }
+            .username{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .rightsection{
+                display: flex;
+                flex-direction: row;
+                padding-right: 50px;
+            }
+            button{
+                font-size: 14px;
+                padding: 10px 10px 10px 10px;
+                border-radius: 5px;
+                margin-right: 10px;
+                border-style: none;
+                font-weight: bold;
+            }
+            .addfriend{
+                background-color: rgb(52, 91, 188);
+                color: white;
+            }
+            .message{
+                background-color: rgb(147, 147, 147);
+                color: black;
+            }
+            .spacer{
+                padding-top: 80px;
+            }
+
+
+            .sideserverbar{
+                position: fixed;
+                top: 70px;
+                left: 0px;
+                bottom: 0px;
+                width: 75px;
+                background-color: rgb(45, 45, 45);
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                align-items: center;
+                padding-top: 10px;
+            }
+            .serverlogo{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+            .sidechanelbar{
+                position: fixed;
+                top: 70px;
+                left: 75px;
+                bottom: 0px;
+                width: 200px;
+                background-color: rgb(80, 80, 80);
+                display: flex;
+                flex-direction: column;
+                padding: 10px 20px 10px 20px;
+            }
+            .info{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 0px;
+            }
+            .lebel{
+                font-size: 15px;
+                font-weight: bold;
+                color: white;
+            }
+            .chanel{
+                padding-top: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                color: white;
+            }
+            .room{
+                margin-bottom: 15px;
+                margin-top: 0px;
+                color: rgb(202, 202, 202);
+            }
+            .addlogo{
+                color: rgb(202, 202, 202);
+                padding-top: 0px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topheader">
+            <div class="leftsection">
+                <img src="cat.jpg" class="userimage">
+            </div>
+            <div class="middlesection">
+                <p class="username">Oliver Cat</p>
+            </div>
+            <div class="rightsection">
+                <button class="addfriend">Add Friend</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+
+        <div class="spacer">
+            <hr>
+        </div>
+
+        <div class="discordsection">
+            <div class="sideserverbar">
+                <img src="cat.jpg" alt="" class="serverlogo">
+                <img src="cat2.jpg" alt="" class="serverlogo">
+                <img src="cat3.jpeg" alt="" class="serverlogo">
+            </div>
+            <div class="sidechanelbar">
+                <div class="info">
+                    <p class="lebel">INFO</p>
+                    <p class="addlogo">+</p>
+                </div>
+                <div class="chanel">
+                    <p class="room"># new-videos</p>
+                    <p class="room"># updates</p>
+                    <p class="room"># faq</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

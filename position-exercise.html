@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Position practice
+        </title>
+        <style>
+            .br{
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: black;
+                color: white;
+            }
+            .leftbar{
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                bottom: 0px;
+                width: 100px;
+                background-color: green;
+                color: white;
+            }
+            .popup{
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            .message{
+                position: fixed;
+                top: 40%;
+                left: 40%;
+                margin: 0px;
+                padding: 0px;
+                background-color: white;
+                padding: 0px 20px 20px 20px;
+                width: 400px;
+                border-radius: 5px;
+            }
+            body{
+                height: 3000px;
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                margin-bottom: 0px;
+            }
+            p{
+                margin-top: 15px;
+            }
+            button{
+                font-size: 15px;
+                border-width: 1px;
+                padding: 5px 5px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="br">bottom-right</p>
+        <div class="leftbar">left sidebar</div>
+
+        <div class="popup">
+        <div class="message">
+            <h1>Modal Title</h1>
+            <p style="font-size: 19px;">This is a modal</p>
+            <button>Close</button>
+        </div>
+    </div>
+    </body>
+</html>
