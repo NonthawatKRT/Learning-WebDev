@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+        footer {
+            display: flex;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a img {
+            margin-left: 10px;
+            margin-top: 12px;
+            width: 24px;
+            height: 24px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 15px;
+        }
+
+        nav ul li a:hover {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            height: 83vh;
+            padding: 0px;
+        }
+        
+        .leftsidebar {
+            background-color: #1c2128;
+            flex: 1;
+            height: 100%;
+            text-align: center;
+        }
+
+        .middle {
+            flex: 6;
+            background-color: rgb(76, 106, 172);
+            height: 100%;
+        }
+
+        .rightsidebar {
+            background-color: #1c2128;
+            flex: 1;
+            height: 100%;
+            text-align: center;
+        }
+        .rightsidebar h2, .leftsidebar h2 {
+            margin-top: 100%;
+        }
+        
+        .maincontaint {
+            background-color: #22272e;
+            height: 100%;
+        }
+        .profilepic {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+        .profile{
+            display: flex;
+        }
+        .profilepiccontainer{
+            flex: 1;
+        }
+        .profileinfocontainer{
+            flex: 4;
+            margin-top: 50px;
+            margin-right: 50px;
+            margin-left: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        .profileinfocontainer h1{
+            color: white;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        h2{
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HEADER</h1>
+    </header>
+    <main>
+        <div class="leftsidebar">
+            <h2>leftsidebar</h2>
+        </div>
+        <div class="middle">          
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CPE</a></li>
+                    <li><a href="">ABOUT ME</a></li>
+                    <li><a href="">OTHER</a></li>
+                </ul>
+            </nav>
+            <div class="maincontaint">
+                <div class="profile">
+                    <div class="profilepiccontainer">
+                        <img src="https://avatars.githubusercontent.com/u/135787256?v=4" class="profilepic">
+                    </div>
+                    <div class="profileinfocontainer">
+                        <p style="color:white; font-size: 35px; margin-bottom: 10px; margin-bottom: 0px;">Nonthawat Tantikunwatthana</p>
+                        <p style="color:#c5d1de; font-size: 25px; font-weight: 100; margin-top: 10px;">Non &middot; he/him</p>
+                        <p style="color:white; font-size: 16px;">Student ID: 66109010452</p>
+                        <p style="color:white; font-size: 16px;">Major: Computer Engineering</p>
+                        <p style="color:white; font-size: 16px;">Faculty: Engineering</p>
+                        <p style="color:white; font-size: 16px;">University: Srinakharinwirot University</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="rightsidebar">
+            <h2>rightsidebar</h2>
+        </div>
+    </main>
+    <footer>
+        <p>contact me | </p>
+        <a href="https://www.instagram.com/_nonthawatz/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100074348685381" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+        </a>
+        <a href="https://github.com/NonthawatKRT" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+        </a>
+    </footer>
+</body>
+
+</html>
